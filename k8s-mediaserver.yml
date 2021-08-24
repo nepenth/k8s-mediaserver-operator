@@ -5,10 +5,10 @@ metadata:
 spec:
   general:
     image_tag: latest
-    ingress_host: k8s-mediaserver.k8s.test
-    pgid: 1000
-    plex_ingress_host: k8s-plex.k8s.test
-    puid: 1000
+    ingress_host: trantor.nakedsun.xyz
+    pgid: 1337
+    plex_ingress_host: plex.nakedsun.xyz
+    puid: 1337
     storage:
       nfs: false
       nfsPath: null
@@ -33,7 +33,7 @@ spec:
       port: 9117
       type: ClusterIP
   plex:
-    claim: CHANGEME
+    claim: claim-yDLrhZx_ZMByHe6kKtM7
     container:
       nodeSelector: {}
       port: 32400
